@@ -1,0 +1,220 @@
+@font-face {
+    font-family: fonte1;
+    src: url(font/american_captain/American\ Captain.ttf)
+}
+
+* {
+    
+    text-decoration: none;
+    user-select: none;
+}
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBvpoDePiTaPqW9VXD4V_P6oCTtwfN8cZw0OFnS6Uq99FbzcrR3aCBA_fXZqXARKoBoM&usqp=CAU);
+}
+
+.toggle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    padding: 15px 20px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .7s ease;
+
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.toggle:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.titulo1 {
+    color: #000000;
+
+    text-align: center;
+    font-family: fonte1;
+    font-size: 80px;
+}
+
+.imgh1 {
+    width: 65px;
+}
+
+.div1 {
+    background-color: #ffffff;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    height: 220vh;
+
+    border-radius: 10px;
+
+}
+
+h2 {
+     text-align: center;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000;
+}
+
+p {
+    text-align: justify;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.galeria {
+    display: flex;
+    height: 25rem;
+    gap: 1rem;
+}
+
+.galeria>div {
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    transition: all .7s cubic-bezier(1, 1, 1, 1.1);
+    border-radius: 10px;
+    filter: grayscale(100%);
+}
+
+.galeria>div:hover {
+    flex: 4;
+    filter: opacity(100%);
+}
+
+.btn11 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.24);
+    color: #fff;
+    padding: 15px 20px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .7s ease;
+
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.btn11 a {
+    color: #fff;
+}
+
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.footer1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.logo-img {
+    width: 10%;
+    height: 5%;
+    margin-left: 30px;
+
+}
+
+.footer1 a {
+    color: #fff;
+    background-color: #000000;
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+.footer2 a:hover {
+    border: 1px solid black;
+    background-color: #fff;
+    color: #000;
+
+}
+
+
+.container {
+    display: flex;
+}
+
+
+.dark-mode {
+     background-image: url(https://63272.cdn.simplo7.net/static/63272/sku/musical-tricoline-musica-fundo-preto-100-algodao-cada-unid-0-50cm-x-1-50m--p-1606764954291.jpg);
+}
+
+.dark-mode .div1 {
+    background-color: #000000;
+}
+
+.dark-mode .toggle {
+    border: solid 1px #000;
+}
+
+.dark-mode .header2 {
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-mode .footer1 a {
+    color: #000;
+    background-color: #fff;
+}
+
+.dark-mode .footer3 {
+    color: #fff;
+}
+
+.dark-mode .footer3 {
+    color: #000000;
+}
+
+.dark-mode h1 {
+    color: rgb(255, 255, 255);
+}
+
+.dark-mode  h2 {
+    color: #ffffff
+}
+
+.dark-mode p {
+    color: #fff;
+}
+
+
+.dark-mode .footer2 a:hover {
+    border: 1px solid #000000;
+    background-color: #fff;
+    color: #000000;
+
+}
+
